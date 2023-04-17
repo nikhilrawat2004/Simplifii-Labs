@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+
+    <style>
+        #heading{
+            background-color:#90b1f8;
+            border-radius: 15px;
+            color: #023035;
+            font-family: Cambria;
+        }
+        fieldset{
+            border-radius: 15px;
+            border:0px;
+            background-color: #afd6f6;
+        }
+        button {
+            font-family: Sans-serif;
+            background-color:#6b98f6;
+            border-color: rgb(70, 70, 70);
+            border-style:none;
+            border-radius: 6px;
+            color: black;
+            padding: 5px;
+            
+        }
+        button:hover {
+            background-color: #22407e; 
+            color: white;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        input{
+            border-style:double;
+            border-radius: 6px;
+            color: #22407e;
+            border-color: #074f57;
+        }
+        .logo{
+            border-radius: 100%;
+            height: 30px;
+            width: 30px;
+        }
+        body{
+            background-color: #e8f2fa;
+        }
+        a{
+            color:white;
+        }
+    </style>
+</head>
+<body bgcolor="cyan">
+    <table>
+        <thead>
+            <table>
+                <td>
+                    <img src="Logo.png" alt="SImplifii Labs Logo" height="145" width="145">
+                </td>
+                <td><font size="500" align="left" face="Candara">Simplifii Labs</font></td>
+            </table>      
+        </thead>
+
+        <tbody>
+            <table>
+                <td>
+                    <img src="https://blog.darwinbox.com/hubfs/Blog%20Image-2.png" height="425" width="800">
+                </td>
+                <td style="width: 40%">
+                    <div>
+                        <center><h1 id="heading">Login Here</h1></center>
+                    </div>
+                    
+                        <form action="login.html">
+                            <fieldset>
+                                <center>
+                                    <div>
+                                        <table>
+                                            <td>
+                                                <img src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" class="logo">
+                                            </td>
+                                            <td>
+                                                <input required type="text" id="Email" name="Email" size="20" placeholder="Username/Email Address"></input>
+                                            </td>
+                                        </table>
+                                        
+                                    </div>
+                                </center>
+                                <br>
+                                <center>
+                                    <div>
+                                        <table>
+                                            <td>
+                                                <img src="https://thumbs.dreamstime.com/b/lock-unlocked-vector-icons-security-padlock-password-privacy-symbol-graphic-design-logo-web-site-social-media-mobile-app-138707566.jpg" class="logo">
+                                            </td>
+                                            <td>
+                                                <input required type="password" name="password" size="20" placeholder="Password" ></input>
+                                            </td>
+                                        </table>
+                                        
+                                    </div>
+                                </center>
+                                <br>
+                                <div>
+                                    <label for="Remember">Remember me</label>
+                                    <input type="checkbox" id="Remember"></input>
+                                </div>
+                                <div>
+                                    <center><button type="submit">Login</button></center>
+                                </div>
+                                <br>
+                                <br>
+         
+                                <div>
+                                    <table style="width: 100%;">
+                                        <td>
+                                            <button type="button"><a href=Create.html>Create Account</a></button>
+                                        </td>
+                                        <td align="right">
+                                            <button type="button"><a href=forgot.html>Forgot Password?</a></button>
+                                        </td>
+                                    </table>
+                                </div>
+                            </fieldset>
+                        
+                    </form>
+
+                </td>
+            </table>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
